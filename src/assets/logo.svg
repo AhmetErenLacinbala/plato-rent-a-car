@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" fill="white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1067.61 496.92">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: 0em;
+      }
+
+      .cls-2 {
+        font-family: InterItalic-ExtraLightItalic, Inter;
+        font-variation-settings: 'opsz' 14, 'wght' 200;
+      }
+
+      .cls-3 {
+        font-style: italic;
+        font-weight: 200;
+      }
+
+      .cls-4, .cls-5 {
+        font-family: InterItalic-ThinItalic, Inter;
+        font-variation-settings: 'opsz' 14, 'wght' 100;
+      }
+
+      .cls-5 {
+        font-size: 192.59px;
+      }
+
+      .cls-6 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-7 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-8 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-9 {
+        font-size: 250px;
+        letter-spacing: -.07em;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <text class="cls-3" transform="translate(0 166.35)"><tspan class="cls-5"><tspan x="0" y="0">P</tspan><tspan class="cls-6" x="116.7" y="0">r</tspan><tspan class="cls-1" x="176.23" y="0">odüks</tspan><tspan class="cls-7" x="701.14" y="0">y</tspan><tspan x="802.14" y="0">o</tspan><tspan class="cls-8" x="913.67" y="0">n</tspan><tspan x="1019.65" y="0">’</tspan></tspan><tspan class="cls-9"><tspan class="cls-4" x="255.93" y="250">a </tspan><tspan class="cls-2" x="434.13" y="250">Car</tspan></tspan></text>
+  </g>
+</svg>
