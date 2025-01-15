@@ -15,16 +15,14 @@ function Contact() {
                     <div className="w-[50%] flex-col flex gap-2">
                         <h3>Çalışma Saatleri</h3>
                         <br />
-                        <p>Pazartesi - Cuma</p>
-                        <p>08:30 to 19:00 </p>
                         <p>Destek ekibimiz 7/24 hizmetinizdedir.</p>
                     </div>
                     <div className="w-[50%] flex-col flex gap-2">
                         <h3>İletişimne geç</h3>
                         <br />
-                        <p>+90 (505) 555 55 55</p>
-                        <p>info@produksyonacar.com </p>
-                        <p>Demetevler Mahallesi, 403 Sokak, 12/4, İstanbul/Yenimahalle</p>
+                        <p>+905013526015</p>
+                        <p>office@beplato.tv </p>
+                        <p>Çavuşoğlu, Sanatkarlar Cd. No:36, 34873 Kartal/İstanbul</p>
                     </div>
                 </div>
             </div>

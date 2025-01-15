@@ -2,7 +2,6 @@ import React, { useEffect, useRef, useState } from 'react'
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import ersan_kuneri from "@assets/ersan_kuneri.jpg"
-import netflix from "@assets/netflix.svg"
 import { v4 as uuidv4 } from "uuid";
 import afis1 from "@assets/afis/1.jpg";
 import afis2 from "@assets/afis/2.jpg";
@@ -48,6 +47,92 @@ import afis41 from "@assets/afis/41.jpg";
 import afis42 from "@assets/afis/42.jpg";
 import afis43 from "@assets/afis/43.jpg";
 import afis44 from "@assets/afis/44.jpg";
+import ans from "@assets/logos/ans.webp";
+import atv from "@assets/logos/atv.png";
+import avsar from "@assets/logos/avsar.jpg";
+import ayapim from "@assets/logos/ayyapim.jpg";
+import bkm from "@assets/logos/bkm.png";
+import blutv from "@assets/logos/blutv.png";
+import bozdag from "@assets/logos/bozdag.jpeg";
+import camasir from "@assets/logos/camasir.jpg";
+import cm from "@assets/logos/cm.png";
+import d from "@assets/logos/d.jpeg";
+import disney from "@assets/logos/disney.png";
+import erler from "@assets/logos/erler.jpg";
+import es from "@assets/logos/es.jpg";
+import Exxen from "@assets/logos/Exxen.png";
+import fabrica from "@assets/logos/fabrika.jpeg";
+import fox from "@assets/logos/fox.png";
+import foxtv from "@assets/logos/foxtv.png";
+import gain from "@assets/logos/gain.png";
+import gold from "@assets/logos/gold.png";
+import karga from "@assets/logos/karga.jpeg";
+import mf from "@assets/logos/mf.jpg";
+import most from "@assets/logos/most.jpeg";
+import netflix from "@assets/logos/netflix.svg";
+import ntc from "@assets/logos/ntc.jpeg";
+import o3 from "@assets/logos/o3.jpg";
+import ogm from "@assets/logos/ogm.png";
+import ojo from "@assets/logos/ojo.jpeg";
+import pastel from "@assets/logos/pastel.png";
+import primevideo from "@assets/logos/primevideo.png";
+import Puhutv from "@assets/logos/Puhutv.jpg";
+import sekans from "@assets/logos/sekans.jpg";
+import show from "@assets/logos/show.png";
+import sinegraf from "@assets/logos/sinegraf.png";
+import star from "@assets/logos/star.png";
+import surec from "@assets/logos/surec.png";
+import taff from "@assets/logos/taff.png";
+import tims from "@assets/logos/tims.jpg";
+import tmc from "@assets/logos/tmc.jpg";
+import trt from "@assets/logos/trt.png";
+import tv8 from "@assets/logos/tv8.jpg";
+import zera from "@assets/logos/zera.png";
+
+const companies = [
+    { name: "ans", img: ans },
+    { name: "atv", img: atv },
+    { name: "avsar", img: avsar },
+    { name: "ayapim", img: ayapim },
+    { name: "bkm", img: bkm },
+    { name: "blutv", img: blutv },
+    { name: "bozdag", img: bozdag },
+    { name: "camasir", img: camasir },
+    { name: "cm", img: cm },
+    { name: "d", img: d },
+    { name: "disney", img: disney },
+    { name: "erler", img: erler },
+    { name: "es", img: es },
+    { name: "Exxen", img: Exxen },
+    { name: "fabrika", img: fabrica },
+    { name: "fox", img: fox },
+    { name: "foxtv", img: foxtv },
+    { name: "gain", img: gain },
+    { name: "gold", img: gold },
+    { name: "karga", img: karga },
+    { name: "mf", img: mf },
+    { name: "most", img: most },
+    { name: "netflix", img: netflix },
+    { name: "ntc", img: ntc },
+    { name: "o3", img: o3 },
+    { name: "ogm", img: ogm },
+    { name: "ojo", img: ojo },
+    { name: "pastel", img: pastel },
+    { name: "primevideo", img: primevideo },
+    { name: "Puhutv", img: Puhutv },
+    { name: "sekans", img: sekans },
+    { name: "show", img: show },
+    { name: "sinegraf", img: sinegraf },
+    { name: "star", img: star },
+    { name: "surec", img: surec },
+    { name: "taff", img: taff },
+    { name: "tims", img: tims },
+    { name: "tmc", img: tmc },
+    { name: "trt", img: trt },
+    { name: "tv8", img: tv8 },
+    { name: "zera", img: zera },
+];
+
 
 const projects = [
     afis1, afis2, afis3, afis4, afis5, afis6, afis7, afis8, afis9, afis10,
@@ -69,34 +154,40 @@ const responsive = {
         items: 5
     },
     tablet: {
-        breakpoint: { max: 1024, min: 464 },
+        breakpoint: { max: 1024, min: 700 },
         items: 3
+    },
+    tabletsm: {
+        breakpoint: { max: 700, min: 464 },
+        items: 2
     },
     mobile: {
         breakpoint: { max: 464, min: 0 },
         items: 1
     }
 };
+const responsive2 = {
+    superLargeDesktop: {
+        breakpoint: { max: 4000, min: 3000 },
+        items: 7
+    },
+    desktop: {
+        breakpoint: { max: 3000, min: 1024 },
+        items: 5
+    },
+    tablet: {
+        breakpoint: { max: 1024, min: 700 },
+        items: 3
+    },
+    tabletsm: {
+        breakpoint: { max: 700, min: 0 },
+        items: 3
+    },
+
+};
 
 
-const clients = [
-    { img: netflix },
-    { img: netflix },
-    { img: netflix },
-    { img: netflix },
-    { img: netflix },
-    { img: netflix },
-    { img: netflix },
-    { img: netflix },
-    { img: netflix },
-    { img: netflix },
-    { img: netflix },
-    { img: netflix },
-    { img: netflix },
-    { img: netflix },
-    { img: netflix },
 
-]
 
 
 function Projects() {
@@ -117,10 +208,11 @@ function Projects() {
                 infinite={true}
                 autoPlay={true}
                 autoPlaySpeed={3000}
-                responsive={responsive}>
+                responsive={responsive}
+                className='pl-[30px]'>
                 {projects.map(data => {
                     return (
-                        <div className='h-[420px] pl-3' key={uuidv4()}>
+                        <div className='lg:h-[420px] h-[500px] pl-3' key={uuidv4()}>
                             <img className='h-full w-auto' src={data} alt="" />
                         </div>
                     )
@@ -141,16 +233,22 @@ function Projects() {
                 infinite={true}
                 autoPlay={true}
                 autoPlaySpeed={3000}
-                responsive={responsive}>
-                {clients.map(data => {
+                responsive={responsive}
+                className="flex pl-[50px]"
+            >
+                {companies.map(data => {
                     return (
-                        <div className='mr-10' key={uuidv4()}>
-                            <img src={data.img} alt="" />
+                        <div className="mr-10" key={uuidv4()}>
+                            <img
+                                src={data.img}
+                                alt={data.name}
+                                className="h-[300px] w-full bg-white"
+                            />
                         </div>
                     )
                 })}
-
             </Carousel>
+
         </div>
     )
 }

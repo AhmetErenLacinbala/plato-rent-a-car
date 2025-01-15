@@ -1,5 +1,5 @@
 import { v4 as uuidv4 } from "uuid";
-import logo from "@assets/logo.svg";
+import logo from "@assets/logo.png";
 import React from 'react';
 import { DownOutlined, SmileOutlined } from '@ant-design/icons';
 import { Dropdown, Space } from 'antd';

@@ -7,22 +7,21 @@ import detailsImg3 from "@assets/date.svg";
 const DetailsData = [
     {
         title: "Hızlı ve Kolay Rezervasyon",
-        desc: "Araç kiralama işleminiz hiç bu kadar kolay olmamıştı! Sadece birkaç adımda istediğiniz aracı seçebilir ve setleriniz için hızlıca kiralama işleminizi tamamlayabilirsiniz. Film ve dizi setleri için uygun araçlar, zamanında teslimat garantisi ile sizleri bekliyor.",
+        desc: "Prodüksiyonunuza araç kiralama işlemi hiç bu kadar kolay olmamıştı! Sadece birkaç adımda istediğiniz aracı seçebilir ve hızlıca kiralama işleminizi tamamlayabilirsiniz. Zamanında teslimat garantisi ile projeleriniz için hazır araçlar sizleri bekliyor.",
         img: detailsImg1,
-
     },
     {
         title: "Kolay Ödeme ve İade Seçenekleri",
-        desc: "Siz ve ekibinizin zamanına değer veriyoruz. Kiraladığınız araçları istediğiniz zaman bloke olmadan teslim alabilir ve iade edebilirsiniz. Esnek teslimat seçeneklerimizle, setlerinizde zaman kaybı yaşamanızın önüne geçiyoruz.",
+        desc: "Siz ve ekibinizin zamanına değer veriyoruz. Kiraladığınız araçları kredi kartı blokesi olmadan kolayca teslim alabilirsiniz. Esnek teslimat seçeneklerimizle, prodüksiyonunuzda zaman kaybı yaşamazsınız.",
         img: detailsImg2
     },
     {
-        title: "İkonik Araç Seçenekleri",
-        desc: "Setlerinizde kullanılacak ikonik araçları keşfedin. Sinema tarihine damgasını vurmuş araç modelleriyle projenize özel atmosferi yaratın. Klasik araçlardan nostaljik modellere kadar geniş seçenek yelpazemizle, projenizin her ayrıntısına hitap ediyoruz.",
+        title: "Ekonomik ve Prodüksiyona Uygun Araçlar",
+        desc: "Sinema tarihine damgasını vurmuş araç modelleriyle projelerinize özel atmosfer yaratın. Klasik ve nostaljik araçlardan oluşan geniş seçenek yelpazemizle, prodüksiyonunuza uygun araçlar sunuyoruz.",
         img: detailsImg3
     },
-
 ];
+
 
 function Details() {
     return (
