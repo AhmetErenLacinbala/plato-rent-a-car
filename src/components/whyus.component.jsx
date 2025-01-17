@@ -2,7 +2,7 @@ import bottomImage from "@assets/bottom_image.webp";
 import { Link } from "react-router-dom";
 import premium from "@assets/premium/1.jpg";
 import eco from "@assets/eco/1.jpg";
-import project from "@assets/project/3.jpg";
+import project from "@assets/project/4.jpg";
 
 function Whyus() {
     return (
@@ -17,7 +17,7 @@ function Whyus() {
                             <div className="">
                                 <img className="rounded-[25px] scale-x-[-1]" src={premium} alt="" />
                             </div>
-                            <div className=" box-border pt-8 pb-8 pr-8 absolute z-10 bg-[#1A1A1A] top-5 lg:right-[-30px] scale-x-[-1] right-0 w-[70%] rounded-[15px]">
+                            <div className=" box-border pt-8 pb-8 pr-8 absolute z-10 bg-[#1A1A1A] top-5 lg:right-[-30px] right-0 w-[70%] rounded-[15px]">
                                 <div className="flex items-center mb-2">
                                     <div className="h-[1px] bg-[#dc493a] w-[35px]">
                                     </div>

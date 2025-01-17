@@ -9,6 +9,7 @@ import eco3 from "@assets/eco/3.jpg";
 import project1 from "@assets/project/1.jpg";
 import project2 from "@assets/project/2.jpg";
 import project3 from "@assets/project/3.jpg";
+import project4 from "@assets/project/4.jpg";
 import cars from "@assets/arabalar.jpg";
 import date_img from "@assets/car_assets/date.svg";
 import camera from "@assets/car_assets/camera.svg";
@@ -146,7 +147,7 @@ const Proje = {
             door: 4
         },
         {
-            img: project3,
+            img: project4,
             name: "Mercedes-Benz S-Class",
             cost: "1000₺",
             seat: 4,

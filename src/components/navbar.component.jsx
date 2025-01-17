@@ -53,14 +53,14 @@ function Nav() {
     return (
         <nav className="w-screen fixed top-0 z-50 flex justify-between p-4 bg-black bg-opacity-70 align-middle">
             <div className="w-[70vw]">
-                <div className="h-[50px]">
+                <div className="lg:h-[50px] h-[30px]">
                     <a href="/">
 
                         <img className="h-full w-auto" src={logo} alt="" />
                     </a>
                 </div>
             </div>
-            <div className="h-[50px] min-w-[200px]">
+            <div className="lg:h-[50px] h-[30px] min-w-[200px]">
                 <ul className="font-light gap-8 flex h-full items-center justify-between pr-6">
 
                     <div className="group h-full flex items-center">
