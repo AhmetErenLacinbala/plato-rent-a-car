@@ -5,6 +5,10 @@ import { DownOutlined, SmileOutlined } from '@ant-design/icons';
 import { Dropdown, Space } from 'antd';
 import { Link } from "react-router-dom";
 
+
+import { useState, useEffect } from "react";
+
+
 const navProps = [
     {
         text: "Koleksiyon",
@@ -36,7 +40,7 @@ const items = [
         key: '3',
         label: (
             <a rel="noopener noreferrer" href="/cars?type=proje">
-                Proje Araçlar
+                Aksesuar Araçlar
             </a>
         ),
     },
@@ -52,6 +56,7 @@ function Nav() {
     };
     return (
         <nav className="w-screen fixed top-0 z-50 flex justify-between p-4 bg-black bg-opacity-70 align-middle">
+
             <div className="w-[70vw]">
                 <div className="lg:h-[50px] h-[30px]">
                     <a href="/">

@@ -88,6 +88,7 @@ import tmc from "@assets/logos/tmc.jpg";
 import trt from "@assets/logos/trt.png";
 import tv8 from "@assets/logos/tv8.jpg";
 import zera from "@assets/logos/zera.png";
+import Header from './header';
 
 const companies = [
     { name: "ans", img: ans },
@@ -196,13 +197,7 @@ function Projects() {
 
     return (
         <div className="mt-12">
-            <div className="flex items-center">
-                <div className="h-[1px] bg-[#dc493a] w-[175px]">
-                </div>
-                <h1 className="text-roboto text-[56px] flex">
-                    <b>Bizi Tercih Edenler</b>
-                </h1>
-            </div>
+            <Header text={"Bizi Tercih Edenler"}></Header>
 
             <Carousel
                 infinite={true}
@@ -220,34 +215,6 @@ function Projects() {
 
             </Carousel>
 
-
-            <div className="flex items-center mt-10">
-                <div className="h-[1px] bg-[#dc493a] w-[175px]">
-                </div>
-                <h1 className="text-roboto text-[56px] flex">
-                    <b>Referanslarımız</b>
-                </h1>
-            </div>
-
-            <Carousel
-                infinite={true}
-                autoPlay={true}
-                autoPlaySpeed={3000}
-                responsive={responsive}
-                className="flex pl-[50px]"
-            >
-                {companies.map(data => {
-                    return (
-                        <div className="mr-10" key={uuidv4()}>
-                            <img
-                                src={data.img}
-                                alt={data.name}
-                                className="h-[300px] w-full bg-white"
-                            />
-                        </div>
-                    )
-                })}
-            </Carousel>
 
         </div>
     )

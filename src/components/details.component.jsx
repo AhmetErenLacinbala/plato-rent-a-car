@@ -2,6 +2,7 @@ import { v4 as uuidv4 } from "uuid";
 import detailsImg1 from "@assets/location.svg";
 import detailsImg2 from "@assets/time.svg";
 import detailsImg3 from "@assets/date.svg";
+import Header from "./header";
 
 
 const DetailsData = [
@@ -26,13 +27,7 @@ const DetailsData = [
 function Details() {
     return (
         <div className="pt-[50px]">
-            <div className="flex items-center">
-                <div className="h-[1px] bg-[#dc493a] w-[175px]">
-                </div>
-                <h1 className="text-roboto text-[56px] flex">
-                    <b>Neden Biz?</b>
-                </h1>
-            </div>
+            <Header text={"Neden Biz?"}></Header>
 
             <div className="flex lg:flex-row flex-col flex-nowrap justify-center text-center  gap-10 lg:gap-[10v  pt-8  items-center">
 

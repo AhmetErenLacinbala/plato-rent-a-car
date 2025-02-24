@@ -116,7 +116,7 @@ const Eco = {
 }
 
 const Proje = {
-    title: "Proje Araçlar",
+    title: "Aksesuar Araçlar",
     desc: "Proje araçlarımız, film ve dizi setlerinde kullanılan ikonik, nostaljik ve kültürel değeri olan araçlardan oluşur. Bu araçlar, belirli bir dönemi, karakteri veya temayı yansıtmak için mükemmel seçimlerdir. İster geçmiş yıllara ait klasik bir model, ister kültürel bir simge olan nostaljik bir araç arayın, proje araçlarımız her zaman hikayenizi güçlendirecek şekilde tasarlanmıştır. Özellikle tarihsel veya dramatik projelerde, karakterlerin kimliklerini daha derinlemesine yansıtarak izleyiciye güçlü bir atmosfer sunar. Özgün tasarımları ve tarihi değeri ile proje araçlarımız, filminiz ya da diziniz için unutulmaz bir deneyim yaratmanıza yardımcı olacaktır. Setlerde sıklıkla tercih edilen proje araçları arasında Ford Mustang (1960'lar), Chevrolet Camaro (1970'ler) ve Volkswagen Beetle yer alır.",
     img: [project1, project2, project3],
     cars: [
